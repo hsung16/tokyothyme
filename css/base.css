@@ -1,0 +1,126 @@
+/* Importing custom font */
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+
+html body {
+	font-family: 'Architects Daughter', cursive;
+	overflow-x: hidden;
+	background-color: #000000;
+	color: #F4CC00;
+	overflow-x: hidden;
+}
+
+/* General rules for the body of html */
+body h1 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Header formating rules*/
+#header {
+	background-color: #000000;
+	min-height: 150px;
+	width: auto;
+	border-bottom: solid #8EDE6C;
+}
+
+/* Formating header text */
+#header h1 {
+	margin-top: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30pt;
+	color: #FFFFFF;
+}
+
+/* Formating for h3 */
+#header h3 {
+	margin-top: 2px;
+	margin-bottom: 8px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#header p {
+	width: 345px;
+	margin: auto;
+}
+
+#header p a {
+	color: #F4CC00
+}
+
+/* Formating the logo */
+#logo {
+	padding-top: 10px;
+	padding-left: 3px;
+	width: 100%;
+}
+
+.iconHeader {
+	width: 25px;
+	height: 25px;
+	margin-left: 5px;
+}
+
+/*Placing a white background for opacity to be brighter */
+.body_container{
+	background-color: #FFFFFF;
+	min-height: 425px;
+}
+
+/* Footer formating rules */
+#footer {
+	background-color: #000000;
+	width: auto;
+	height: 100%;
+	border-top: solid #8EDE6C;
+}
+
+/* Social Media box container */
+#social_media {
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-left: 0px;
+	margin: auto;
+	width: 320px;
+}
+
+/* Social Media List items */
+#social_media li {
+	display: inline;
+}
+
+/* General formating for anchor */
+#social_media a {
+	color: #F4CC00;
+	width: 125px;
+	font-size: 13pt;
+	font-weight: bold;
+	padding-right: 18px;
+}
+
+/* Formating for last anchor */
+#social_media li:last-child a {
+	padding-right: 0px;
+}
+
+/* Sizing social media icons */
+.icon {
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+/* Formating the icon disclaimer */
+#disclaimer {
+	text-align: center;
+	padding-top: 5px;
+	font-size: 8pt;
+}
+
+/* Formating hyperlinks */
+#disclaimer a {
+	color: #F4CC00;
+}

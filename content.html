@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		
+		<title>Tokyo Thyme</title>
+		
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/content.css">
+		<!-- Bootstrap -->
+		<link href = "bootstrap-3.3.6-dist/css/bootstrap.min.css" rel = "stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+		<!--[if lt IE 9]>
+		<script src = "https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src = "https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src = "https://code.jquery.com/jquery.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src = "bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>	
+		
+	</head>
+	<body>
+		<!-- Header -->
+		<div id = "header">
+			<a href = "index.html"><img id = "logo" src = "images/logo.jpg" alt = "logo"></a>
+			<h3> - SUSHI & NOODLES - </h3>
+			<p><img class = "iconHeader" src = "images/pin.png"> 5405 W. Blvd, Vancouver  <a href = "tel:604-263-3262"><img class = "iconHeader" src = "images/user.png"> 604-263-3262</a></p>
+		</div>
+		
+		<!-- Outer navbar -->
+		<div class = "body_container">
+			<div id = "tab_container">
+			<ul class = "tab">
+				<li><a href = "#" class = "tablinks" onclick = "openSelection(event, 'about');">About</a></li>
+				<li><a href = "#" class = "tablinks" onclick = "openSelection(event, 'menu');">Menu</a></li>
+				<li><a href = "#" class = "tablinks" onclick = "openSelection(event, 'gallery');">Gallery</a></li>
+				<li><a href = "#" class = "tablinks" onclick = "openSelection(event, 'contact');">Contact</a></li>
+			</ul>
+			</div>
+
+			<!-- About tab content -->
+			<div id = "about" class = "tabcontent">
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/front.png">
+				</div>
+				<div id = "about_content">
+					<h2>About</h2>
+					<p>Tokyo Thyme located at the north edge of Kerrisdale, Vancouver.  We focus on cuisine that is a fusion between traditional Japanese and contemporary. Our aim is to appeal to customers by incorporating quality through traditional methods and show casing its dishes by giving it a modern feel/twist. You can definitely expect to get the best of both worlds when you come in to dine or order take-out at our restaurant. </p>
+					<p>The restaurant is owned by a husband and wife that are passionate about Japanese cuisine. The sushi chef has received training from a Japanese chef during his time in San Francisco. He and his wife immigrated to Vancouver where he worked for a short period of time at Vancouver’s prestigious Tojo’s before he decided to open a store with his wife. During his time at Tojo’s he was recognized as Vancouver’s first Mexican sushi chef that met the strict Japanese standards necessary to be a sushi chef in Japan.</p>
+				</div>
+				<br>
+			</div>
+			
+			<!-- Menu tab content -->
+			<div id = "menu" class = "tabcontent">
+				<!-- Menu tab navbar -->
+				<div id = "menu_navbar">
+					<ul class = "menu_tab">
+						<li><a href = "#" class = "menutablinks" id = "appetizers_tab" onclick = "openMenu(event, 'appetizers')">Appetizers</a></li>
+						<li><a href = "#" class = "menutablinks" onclick = "openMenu(event, 'sushi')">Sushi</a></li>
+						<li><a href = "#" class = "menutablinks" onclick = "openMenu(event, 'rolls')">Rolls</a></li>
+						<li><a href = "#" class = "menutablinks" onclick = "openMenu(event, 'don')">Don/Noodle</a></li>
+						<li><a href = "#" class = "menutablinks" onclick = "openMenu(event, 'combo')">Combo</a></li>
+						<li><a href = "#" class = "menutablinks" onclick = "openMenu(event, 'party_tray')">Party Tray</a></li>
+						<li><a href = "#" class = "menutablinks" onclick = "openMenu(event, 'specials')">Specials</a></li>
+						<li><a href = "#" class = "menutablinks" onclick = "openMenu(event, 'omakase')">Omakase</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<!-- Menu tab inner content -->
+			<div id = "menu_container">
+				<div id = "appetizers" class = "menutabcontent">
+					<div class = "image_bg">
+						<img class = "headerImage" src = "images/menu_strip0.jpg" alt = "Tokyo Thyme">
+					</div>
+					<!-- Formating context content -->
+					<div class = "menu_content">
+						<!-- Appetizers column 1 -->
+						<div id="col1">
+							<h1>Appetizer</h1>
+							<table class ="pricings">
+								<tr>
+									<td class="menu_n">Edamame</td>
+									<td class="menu_p">$4.50</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Green soybeans</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Agedashi Tofu</td>
+									<td class="menu_p">$5.75</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Fried tofu cooked in broth</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Spicy Tofu</td>
+									<td class="menu_p">$6.25</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Fried tofu cooked in broth w/ a spicy twist</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Yam Temp Fried</td>
+									<td class="menu_p">$6.50</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Served w/ special sauce</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Nasudengaku</td>
+									<td class="menu_p">$6.50</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Glazed eggplant w/ special miso</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Soft Shell Crab</td>
+									<td class="menu_p">$6.95</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Deep fried and served w/ spicy ponzu</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Tuna Tataki</td>
+									<td class="menu_p">$15.50</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Seared tuna served w/ spicy ponzu</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Red &amp; White Tuna Stack</td>
+									<td class="menu_p">$17.50</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Tower of red and white tuna, yamaimo, avocado, served w/ sushi rice and seaweed for wrapping. <br>[add quail egg for 50&#162;]</td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+					<div class = "image_bg">
+						<img class = "headerImage" src = "images/menu_strip0.jpg">
+					</div>
+					<!-- Appetizers column 2 -->
+					<div class = "menu_content">
+						<div id="col2">
+							<h1>Salads</h1>
+							<table class ="pricings">
+								<tr>
+									<td class="menu_n">House Salad
+									<td class="menu_p">$4.95</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Crispy noodles on top of mesclun greens</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Tofu Teriyaki Salad
+									<td class="menu_p">$5.95</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Tofu teriyaki, tomato, kaiware on top of mesclun greens</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Chicken Teriyaki Salad
+									<td class="menu_p">$6.50</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Chicken teriyaki, tomato, cucumber, crushed peanuts on mesclun greens</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">Sashimi Salad
+									<td class="menu_p">$13.50</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Assorted sashimi on top of mesclun greens</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="menu_n">House Special Sunomono
+									<td class="menu_p">$7.50</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Crab, prawn, smoked salmon, yamaimo, avocado, and tamago wrapped in cucumber</td>
+									<td class = "top">$14.50</td>
+								</tr>
+								<tr>
+									<td class="menu_n">Sesame Crusted Tuna Steak
+									<td class="menu_p">$13.50</td>
+								</tr>
+								<tr>
+									<td class="menu_d">Seared tuna covered in black and white sesame served w/ spicy sauce on a bed of mesclun greens</td>
+									<td></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+			</div>
+
+			<!-- Sushi tab content -->
+			<div id = "sushi" class = "menutabcontent">
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/front.png">
+				</div>
+				<div class = "menu_content">
+					<!-- Sushi column 1 -->
+					<div id="col1">
+						<h1>Sashimi</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Tuna Sashimi</td>
+								<td class="menu_p">$13.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Albacore Tuna (6 pieces)</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Salmon Sashimi</td>
+								<td class="menu_p">$13.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Farmed Salmon (6 pieces)</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tuna & Salmon Sashimi</td>
+								<td class="menu_p">$13.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Albacore Tuna &amp; Farmed Salmon (3 pieces each)</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Sockeye Salmon Sashimi</td>
+								<td class="menu_p">$16.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Wild Salmon (6 pieces)</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Red Tuna Sashimi</td>
+								<td class="menu_p">$18.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Red Tuna (6 pieces)</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Hamachi Sashimi</td>
+								<td class="menu_p">$18.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Yellowtail (6 pieces)</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Assorted Sashimi</td>
+								<td class="menu_p">$21.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Chef's selection of the day's freshest fish</td>
+								<td></td>
+							</tr>
+						</table>	
+					</div>
+				</div>
+				
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/menu_strip0.jpg" alt = "Tokyo Thyme">
+				</div>
+				
+				<div class = "menu_content">
+					<!-- Sushi Column 2 -->
+					<div id="col2">
+						<h1>Nigiri</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Inari</td>
+								<td class="menu_p">$1.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Sweet bean curd</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Masago</td>
+								<td class="menu_p">$1.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Smelt Roe</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Ika</td>
+								<td class="menu_p">$1.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Squid</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tamago</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Japanese egg omelette</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Avocado</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Yamaimo</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Mountain Yam</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Saba</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Mackeral</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tuna</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Albacore Tuna (White)</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Salmon</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Farmed Salmon</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Ebi</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Cooked Prawn</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>	
+					
+					<!-- Sushi column 3 -->
+					<div class = "col3">
+						<table class ="pricings2">
+							<tr>
+								<td class="menu_n">Tako</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Cooked Octopus Tentacle</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tobiko</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Flying Fish Roe</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Hokkigai</td>
+								<td class="menu_p">$2.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Surf Clam</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>	
+
+					<!-- Sushi Column 4 -->
+					<div id="col4">
+						<table class="pricings2">
+							<tr>
+								<td class="menu_n">Chopped Scallop</td>
+								<td class="menu_p">$2.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Chopped Scallop w/ mayo &amp; masago</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Spicy Tuna</td>
+								<td class="menu_p">$2.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Chopped Tuna w/ spicy mayo</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Spicy Salmon</td>
+								<td class="menu_p">$2.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Chopped Salmon w/ spicy mayo</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Toro</td>
+								<td class="menu_p">$3.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tuna Belly</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Negitoro</td>
+								<td class="menu_p">$3.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tuna Belly &amp; Green Onion</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Red Tuna</td>
+								<td class="menu_p">$3.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">&nbsp;</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Sockeye Salmon</td>
+								<td class="menu_p">$3.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Wild Salmon</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Hamachi</td>
+								<td class="menu_p">$3.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Yellowtail</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Amaebi</td>
+								<td class="menu_p">$3.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Spot Prawn</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Ikura</td>
+								<td class="menu_p">$3.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Salmon Roe</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Unagi</td>
+								<td class="menu_p">$3.95</td>
+							</tr>
+							<tr>
+								<td class="menu_d">BBQ Eel</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Uni (Seasonal)</td>
+								<td class="menu_p">$3.95</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Sea Urchin</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Rolls tab content -->
+			<div id = "rolls" class = "menutabcontent">
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/menu_strip0.jpg" alt = "Tokyo Thyme">
+				</div>
+				
+				<!-- Rolls context content -->
+				<div class = "menu_content">
+					<!-- Rolls column 1 -->
+					<div id="col1">
+						<h1>Hosomaki</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Kappa</td>
+								<td class="menu_p">$2.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Cucumber &amp; sesame</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Avocado</td>
+								<td class="menu_p">$2.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">&nbsp;</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Oshinko</td>
+								<td class="menu_p">$2.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Pickled radish</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Kampyo
+								<td class="menu_p">$2.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Sweet squash</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tamago
+								<td class="menu_p">$2.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Japanese egg omelette</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Ume Q
+								<td class="menu_p">$2.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Plum &amp; pickle</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Natto
+								<td class="menu_p">$2.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Fermented soybeans</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Ume Shiso
+								<td class="menu_p">$3.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Plum, japanese mint &amp; yamaimo</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Shitake</td>
+								<td class="menu_p">$3.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Sweet soy mushroom</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+					
+					<!-- Rolls column 2 -->
+					<div id="col2">
+						<table class="pricings2">	
+							<tr>
+								<td class="menu_n">Tekka</td>
+								<td class="menu_p">$3.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Albacore tuna (white)</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Salmon</td>
+								<td class="menu_p">$3.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Farmed Salmon</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Saba Gari</td>
+								<td class="menu_p">$3.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Mackeral &amp; ginger</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Sake Negi</td>
+								<td class="menu_p">$3.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Salmon &amp; green onion</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Ebi</td>
+								<td class="menu_p">$3.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Cooked prawn</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">True Tekka</td>
+								<td class="menu_p">$3.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Red Tuna</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Sockeye Salmon</td>
+								<td class="menu_p">$3.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Wild Salmon</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Negitoro</td>
+								<td class="menu_p">$4.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tuna belly &amp; green onion</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Hamachi Negi</td>
+								<td class="menu_p">$4.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Yellowtail &amp; green onion</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+				</div>	
+				
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/menu_strip0.jpg" alt = "Tokyo Thyme">
+				</div>					
+				
+				<div class = "menu_content">
+					<!-- Roll column 3 -->
+					<div id="col3">
+						<h1>Inside-Out R</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">California
+								<td class="menu_p">$4.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Imitation crab, avocado, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">BC
+								<td class="menu_p">$4.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">BBQ salmon skin, kaiware, cucumber, oshinko</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tuna Avo Q
+								<td class="menu_p">$4.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Albacore tuna, avocado, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Salmon Avo Q
+								<td class="menu_p">$4.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Salmon, avocado, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Spicy Tuna or Salmon
+								<td class="menu_p">$4.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tuna or salmon, spicy mayo, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Ebi Avo Q
+								<td class="menu_p">$4.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Cooked prawn, avocado, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Ika Tobiko Shiso
+								<td class="menu_p">$5.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Squid, flying fish roe, japanese mint</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">DX California
+								<td class="menu_p">$5.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">California w/ flying fish roe</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Sockeye Salmon Avo Q
+								<td class="menu_p">$5.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Wild Sockeye Salmon, avocado, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">DX True Tekka
+								<td class="menu_p">$5.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Red tuna, green onion, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tuna Shiso Natto
+								<td class="menu_p">$5.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tuna, fermened soybean, japanese mint</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Chopped Scallop</td>
+								<td class="menu_p">$5.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Chopped scallop w/ smelt roe, cucumber</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+					
+					<!-- Roll Column 4 -->
+					<div id="col4">
+						<table class="pricings2">
+							<tr>
+								<td class="menu_n">Chicken Teriyaki
+								<td class="menu_p">$5.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Chicken teriyaki, avocado, japanese mint, kaiware</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">DX Negitoro
+								<td class="menu_p">$5.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Albacore belly, green onion, kaiware, japanese mint</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Philadelphia
+								<td class="menu_p">$5.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Smoked salmon, cream cheese, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tuna Delight
+								<td class="menu_p">$5.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Red tuna, green onion, japanese mint, yamaimo</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Unagi Avo Q
+								<td class="menu_p">$5.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">BBQ eel, avocado, cucubmer</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Unagi Tamago
+								<td class="menu_p">$5.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">BBQ eel, egg omelette</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Unagi Cheese
+								<td class="menu_p">$5.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">BBQ eel, cream cheese, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">House Special
+								<td class="menu_p">$5.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Red tuna, yamaimo, japanese mint, kaiware</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Peppered Tuna
+								<td class="menu_p">$6.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Seared tuna, black pepper, avocado, kaiware, japanese mint</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Dynamite
+								<td class="menu_p">$6.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Two prawn empura, masago, kaiware, avocado, japanese mint</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Spider
+								<td class="menu_p">$7.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Deep fried soft shell crab, avocado, green onion, kaiware, japanese mint, flying fish roe</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>				
+				</div>
+				
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/menu_strip0.jpg" alt = "Tokyo Thyme">
+				</div>
+				
+				<div class = "menu_content">
+					<!-- Roll Column 5 -->
+					<div id="col5">
+						<h1>Vegetarian R</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Shitake Tama Q
+								<td class="menu_p">$4.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Mushroom, egg omelette, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Natto Special
+								<td class="menu_p">$4.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Fermented soybean, yamaimo, kaiware, shiso</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">DX Yam Yam
+								<td class="menu_p">$6.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">On Top: Yam tempura <br>Inside: Green bean temp, avocado, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Futomaki (6PC)
+								<td class="menu_p">$5.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tamago, kampyo, shitake, avocado, cucumber</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Futomaki (12PC)
+								<td class="menu_p">$9.75</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tamago, kampyo, shitake, avocado, cucumber</td>
+								<td></td>
+							</tr>				
+						</table>					
+					</div>
+				</div>
+			</div>
+				
+			<!-- Don/noodle content -->
+			<div id = "don" class = "menutabcontent">
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/zuke0.png">
+				</div>
+
+				<div class ="menu_content">
+					<!-- Don column 1 -->
+					<div id="col1">
+						<h1>Donburi</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Chicken Teriyaki
+								<td class="menu_p">$9.25</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Served over rice w/ housemade teriyaki sauce and organic mesclun greens</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Salmon Teriyaki
+								<td class="menu_p">$11.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Served over rice w/ housemade teriyaki sauce and organic mesclun greens</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Zuke Don
+								<td class="menu_p">$14.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Albacore tuna or salmon marinated in spicy sesame sauce over rice (substitute w/ sushi rice for $1)</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tekka Don
+								<td class="menu_p">$15.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tuna sashimi over sushi rice</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+					
+					<!-- Don column 2 -->
+					<div id="col2">
+						<table class="pricings2">	
+							<tr>
+								<td class="menu_n">Chirashi Don
+								<td class="menu_p">$16.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Assorted sashimi over sushi rice</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Unagi Don
+								<td class="menu_p">$19.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">BBQ eel over rice</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Iao's Ocean 11
+								<td class="menu_p">$19.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">11 seasonal seafoods and ikura oroshi over sushi rice</td>
+								<td></td>
+							</tr>
+						</table>
+						<p class="miso">- Miso soup with in-house dining only -</p>
+					</div>
+					<br>
+				</div>
+
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/menu_strip0.jpg" alt = "Tokyo Thyme">
+				</div>
+				
+				<div class = "menu_content">
+					<!-- Don column 3 -->
+					<div id="col3">
+						<h1>Noodles</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Chicken Udon
+								<td class="menu_p">$7.95</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Chickin with noodle in soup</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Gobo Ten Udon
+								<td class="menu_p">$7.95</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Burdock(root vegetable) tempura</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Kitsune Udon
+								<td class="menu_p">$7.95</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Sweet thin fried bean curd, seaweed</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Kakiage Udon
+								<td class="menu_p">$9.95</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Mixed seafood, vegetable tempura</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Nabeyaki Udon
+								<td class="menu_p">$12.95</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Prawn & vegetable tempura, chicken, egg, veggies in hotpot</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+				
+			<!-- Combo tab content -->
+			<div id = "combo" class = "menutabcontent">
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/front.png">
+				</div>
+
+				<div class ="menu_content">
+					<!-- Combo column 1 -->
+					<div id="col1">
+						<h1>Sushi &amp; Noodle</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">California Combo
+								<td class="menu_p">$9.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Chicken or gobo ten udon, california roll</td>
+							</tr>
+							<tr>
+								<td class="menu_n">Vegetarian Combo
+								<td class="menu_p">$10.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Kitsune udon [sweet bean curd], 1/2 futomaki</td>
+							</tr>
+							<tr>
+								<td class="menu_n">Zuke Combo
+								<td class="menu_p">$13.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Chicken or gobo ten udon, tuna sashimi marinated in spicy sesame sauce over rice</td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tokyo Combo
+								<td class="menu_p">$14.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Chicken or gobo ten udon, 1/2 california w/ masago, tuna, salmon, prawn nigiri</td>
+							</tr>
+							<tr>
+								<td class="menu_n">Tekka Combo
+								<td class="menu_p">$14.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Chicken or gobo ten udon, tuna sashimi over rice</td>
+							</tr>
+							<tr>
+								<td class="menu_n">Chirashi Combo
+								<td class="menu_p">$14.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Chicken or gobo ten udon, assorted sashimi over rice</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/menu_strip0.jpg" alt = "Tokyo Thyme">
+				</div>
+				
+				<div class = "menu_content">
+				<!-- Combo column 2 -->
+					<div id="col2">
+						<h1>Sushi &amp; Salad</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Maki Combo
+								<td class="menu_p">$8.95</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Seasonal house sald, california roll</td>
+							</tr>
+							<tr>
+								<td class="menu_n">Futomaki combo
+								<td class="menu_p">$9.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Seasonal house salad, 1/2 futomaki, 1pc inari</td>
+							</tr>
+							<tr>
+								<td class="menu_n">Nigiri Combo
+								<td class="menu_p">$14.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Seasonal house sald, 1/2 california w/ masago, salmon, tuna, prawn, chopped scallop nigiri</td>
+							</tr>
+						</table>
+						<p class="miso"> - Miso soup with in-house dining only -</p>
+					</div>
+				</div>
+				
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/menu_strip0.jpg" alt = "Tokyo Thyme">
+				</div>
+				
+				<div class = "menu_content">
+					<!-- Combo column 3 -->
+					<div id="col3">
+						<h1>Specials</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Lunch Special A (Lunch only)
+								<td class="menu_p">$7.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">California roll, 1/2 kappa roll, 1/2 tekka roll</td>
+							</tr>
+							<tr>
+								<td class="menu_n">Lunch Special B (Lunch only)
+								<td class="menu_p">$12.50</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">Kappa roll, spicy tuna roll, tuna, salmon, ebi nigiri</td>
+							</tr>
+							<tr>
+								<td class="menu_n">Dinner Special
+								<td class="menu_p">$16.00</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">California roll, spicy tuna roll, tuna, salmon, ebi, chopped scallop nigiri</td>
+							</tr>
+						</table>
+						<p class="miso"> - Miso soup with in-house dining only - </p>
+					</div>
+				</div>
+			</div>
+					
+			<!-- Party tray tab content -->
+			<div id = "party_tray" class = "menutabcontent">
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/front.png">
+				</div>
+
+				<div class = "menu_content">
+					<!-- Party Tray column 1 -->
+					<div id ="col1">
+						<h1>Party Tray</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Ume Tray (36 pieces)
+								<td class="menu_p">$23.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">California roll, dx california roll, kappa maki, tekka maki, salmon avo q roll, spicy tuna roll</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Vegetarian Tray (42 pieces)
+								<td class="menu_p">$24.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Kappa maki, avocado maki, ume shiso maki, kampyo maki, shitake tama q roll, yam roll, 1/2 futomaki roll</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Take Tray (39 pieces)
+								<td class="menu_p">$38.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tuna, salmon, ebi nigiri [3pc each], kappa maki, california roll, avocado maki, dynamite roll, unagi tamago roll</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Matsu Tray (46 pieces)
+								<td class="menu_p">$67.00</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Tuna, salmon, ebi, unagi nigiri[4pc each], california roll, chopped scallop roll, dynamite roll, philadelphia roll, peppered tuna roll</td>
+								<td></td>
+							</tr>			
+						</table>
+					</div>
+				</div>
+			</div>
+				
+			<!-- Specials tab content -->
+			<div id = "specials" class = "menutabcontent">
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/specials0.png">
+				</div>
+				
+				<div class = "menu_content">
+					<!-- Specials column 1 -->
+					<div id="col1">
+						<h1>Special Rolls</h1>
+						<table class ="pricings">
+							<tr>
+								<td class="menu_n">Spring Wave
+								<td class="menu_p">$16.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">Crispy noodles on top of mesclun greens</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Indian Summer
+								<td class="menu_p">$18.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">On top: BBQ unagi + avacado<br>
+								Inside: BBQ unagi + green bean tempura</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Summer Breeze (Summer Only)
+								<td class="menu_p">$16.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">On top: Mango + avacado<br>
+								Inside: Unagi tempura + cucumber + shiso + avo</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Red Storm
+								<td class="menu_p">$15.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">On top: Red & white tuna<br>
+								Inside: Peppered tuna + avacado + shiso + kaiware</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Rainbow
+								<td class="menu_p">$14.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">On top: Red & white tuna + salmon + prawn + avo<br>
+								Inside: California roll</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">October Devil
+								<td class="menu_p">$13.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">On top: Ikura + black sesame<br>
+								Inside: Spicy salmon tempura + avo + shiso</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>		
+					
+					<!-- Specials column 2 -->
+					<div id="col2">
+						<table class="pricings2">
+							<tr>
+								<td class="menu_n">Autumn Field (Vegetarian)
+								<td class="menu_p">$11.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">On top: Inari + green onion<br>
+								Inside: Cucumber + shiso + cream cheese</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Bloody Winter
+								<td class="menu_p">$15.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">On top: White tuna + masago<br>
+								Inside: Spicy tuna + yamaimo + shiso</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Gift From Winter (Winter Only)
+								<td class="menu_p">$14.50</td>
+							</tr>
+							<tr>
+								<td class="menu_d">On top: Ikura + tobiko<br>
+								Inside: Uni + ika + tobiko</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>				
+				</div>
+			</div>
+				
+			<!-- Omakase tab content -->
+			<div id = "omakase" class = "menutabcontent">
+				<div class = "image_bg">
+					<img class = "headerImage" src = "images/menu_strip0.jpg" alt = "Tokyo Thyme">
+				</div>
+				
+				<div class = "menu_content">
+					<!-- Omakase column 1 -->
+					<div id="col1">
+						<h1>House Omakase</h1>
+						<p class="omakase">Omakase is only available in-house to parties of two or more. <b>Parties of 10 or more must order from the omakase menu from Thurs-Sat.</b> Thank you!
+						<table class="pricings">
+							<tr>
+								<td class="menu_n">Omakase Ume
+								<td class="menu_p">$25.00/person</td>
+							</tr>
+							<tr>
+								<td class="menu_d">House special sunomono <br>Agedashi tofu <br>1/2 Sesame crusted tuna steak <br>Dynamite roll 1/2, tuna, salmon, unagi nigiri</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Omakase Take
+								<td class="menu_p">$35.00/person</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">House special sunomono <br>Agedashi tofu <br>Red &amp; white tuna stack <br>Spicy salmon roll tempura w/ ponzu <br>Dynamite roll 1/2, tuna, salmon, unagi nigiri</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="menu_n">Omakase Matsu
+								<td class="menu_p">$45.00/person</td>
+							</tr>
+							<tr>
+								<td  class="menu_d">House special sunomono <br>Spicy chicken tofu <br>Sashimi morawase <br>Home-made ebi gyoza <br>Red &amp; white tuna stack <br>Dynamite roll 1/2 + indian summer 1/4, tuna, salmon, hamachi nigiri <br>Ice cream</td>
+								<td></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+			<!-- Gallery tab content -->
+			<div id = "gallery" class = "tabcontent">
+				<h2>Gallery</h2>
+			</div>
+			
+			<!-- Contact tab content -->
+			<div id = "contact" class = "tabcontent">
+				<div id = "map_container">
+					<iframe src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.0729985743133!2d-123.15783988431131!3d49.237105181919915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867379f7fe376f%3A0x6c875cb4703bbf8b!2sTokyo+Thyme!5e0!3m2!1sen!2sca!4v1464893364965" id = "map" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div id = "contact_content">
+					<h2>Contact</h2>
+					<h4>Location</h4>
+					<p> 
+						We're located between 38th &amp; 39th Ave.<br>
+						Across from Point Grey Secondary.<br>
+						(Located on the same block as RE/max)<br><br>
+						5405 West Boulevard<br>
+						Vancouver, BC &nbsp;V6M 3W5
+					</p>
+					<p>
+						Tel: <a href = "tel:604-263-3262">(604) 263-3262 </a>
+					</p>
+					<br>
+					<h4>Hours of Operation</h4>
+					<table id="hours">
+						<tr>
+							<td>Monday - Friday</td>
+							<td class="time">11:00 AM - 8:00 PM</td>
+						</tr>
+						<tr>
+							<td>Saturday</td>
+							<td class="time">11:30 AM - 8:30 PM</td>
+						</tr>
+						<tr>
+							<td>Sunday</td>
+							<td class="time">Closed</td>
+						</tr>
+					</table>
+				</div>
+				<br>
+			</div>	
+		</div>
+		
+		<!-- Footer -->
+		<div id = "footer">
+			<ul id = "social_media">
+				<li><a href = "https://www.yelp.ca/biz/tokyo-thyme-vancouver"><img class = "icon" src = "images/yelp.png">Yelp</a></li>
+				<li><a href = "https://www.facebook.com/pages/Tokyo-Thyme/144095502300686"><img class = "icon" src = "images/facebook.png">Facebook</a></li>
+				<li><a href = "https://twitter.com/tokyothyme"><img class = "icon" src = "images/twitter.png">Twitter</a></li>
+			</ul>
+			<div id = "disclaimer">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+		</div>
+		
+		<!-- loads the content in tabs -->
+		<script src = "javascript/content.js"></script>
+		
+		
+	</body>
+</html>

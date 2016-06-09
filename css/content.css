@@ -1,0 +1,262 @@
+.body_container {
+	background-color: #8EDE6C;
+}
+
+#tab_container {
+	border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab {
+	width: 300px;
+}
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 3px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	font-weight: bold;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border-top: none;
+	background-color: #8EDE6C;
+	color: #000000;
+	font-family: Tahoma;
+}
+
+/* Sets paragraph format for outer tab content */
+.tabcontent p {
+	margin: 0px;
+	margin-top: 15px;
+	line-height: 110%;
+	font-size: 11pt;
+	padding-left: 5px;
+	font-family: Tahoma;
+}
+
+/* heading 2 format for outer tab */
+.tabcontent h2 {
+	font-weight: bold;
+	margin:0px;
+	margin-top: 10px;
+	padding-left: 5px;
+	font-family: 'Architects Daughter';
+}
+
+.image_bg {
+	background-color: #FFFFFF;
+}
+
+/* Sets format for header Images of each outer/inner tab*/
+.headerImage{
+	width: 100%;
+	opacity: 0.7;
+}
+
+#about_content {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*Outer container for menu inner navbar */
+#menu {
+	padding: 0px !important;
+	width: 100%;
+	border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Menu inner navbar sizing and positioning */
+#menu_navbar {
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Architects Daughter';	
+}
+
+/* Sets the styles for all menu tab content */
+#menu_container {
+}
+
+/* Style the list */
+ul.menu_tab {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+/* Float the list items side by side */
+ul.menu_tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.menu_tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 3px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+	font-weight: bold;
+}
+
+/* Change background color of links on hover */
+ul.menu_tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.menu_tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.menutabcontent {
+    display: none;
+    border-top: none;
+	background-color: #8EDE6C;
+	color: #000000;
+}
+
+.menutabcontent p {
+	margin: 0px;
+	margin-top: 15px;
+	line-height: 90%;
+	font-size: 12pt;
+	padding-left: 5px;
+}
+
+.menutabcontent h1 {
+	font-weight: bold;
+	margin:0px;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+
+.menu_content {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#appetizers_tab {
+	background-color: #ccc;
+}
+
+/* For menu items */
+.pricings {
+	margin-top: 15px;
+	width: 100%;
+	font-family: Tahoma;
+}
+
+/* For 2+ tables of same menu category */
+.pricings2 {
+	width: 100%;
+	font-family: Tahoma;
+}
+
+.menu_n {
+	font-size: 12pt;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.menu_p {
+	text-align: right;
+}
+
+.menu_d {
+	font-size: 10pt;
+	padding-bottom: 10px;
+	line-height: 100%;
+	padding-left: 10px;
+}
+
+/* Special format for sunomono */
+.top {
+	vertical-align: text-top;
+}
+
+p.miso {
+	width: 250px;
+	font-family: Tahoma;
+	font-size: 10pt;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding-bottom: 15px;
+}
+
+p.omakase {
+	padding-left: 10px;
+	font-family: Tahoma;
+	font-size: 11pt;
+	line-height: 105%;
+}
+
+#gallery {
+	padding-left: 10px;
+}
+
+#contact {
+	font-size: 12pt;
+}
+
+#map_container {
+}
+
+#map {
+	width: 100%;
+	min-width: 360px;
+	min-height: 180px;
+}
+
+#contact h4 {
+	margin-left: 5px;
+}
+
+#contact p {
+	margin-left: 5px;
+}
+
+#contact a {
+	color: #000000;
+}
+
+#contact_content {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+#hours {
+	margin-left: 10px;
+}
+
+.time {
+	padding-left: 10px;
+}
