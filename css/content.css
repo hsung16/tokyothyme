@@ -221,9 +221,20 @@ p.omakase {
 }
 
 #gallery {
-	padding-left: 10px;
 }
 
+#gallery ul  {
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	list-style-type: none;
+}
+
+#gallery li {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+}
 #contact {
 	font-size: 12pt;
 }
