@@ -1,5 +1,6 @@
 #body_container {
 	background-color: #8EDE6C;
+	min-height:400px;
 	display: none;
 }
 

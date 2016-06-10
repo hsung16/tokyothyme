@@ -17,18 +17,25 @@ function loadContent(contentName) {
 	
 	if (contentName == "about") {
 		openSelection(event, 'about');
-		document.getElementById("about_tab").style.backgroundColor = "#ccc";
+		document.getElementById(contentName + "_tab").style.display = "block";
+		document.getElementById(contentName + "_tab").className += " active";
 	}
 	
 	if (contentName == "menu") {
 		openSelection(event, 'menu');
+		document.getElementById(contentName + "_tab").style.display = "block";
+		document.getElementById(contentName + "_tab").className += " active";
 	}
 	
 	if (contentName == "gallery") {
 		openSelection(event, 'gallery');
+		document.getElementById(contentName + "_tab").style.display = "block";
+		document.getElementById(contentName + "_tab").className += " active";
 	}
 	
 	if (contentName == "contact") {
 		openSelection(event, 'contact');
+		document.getElementById(contentName + "_tab").style.display = "block";
+		document.getElementById(contentName + "_tab").className += " active";
 	}
 }
