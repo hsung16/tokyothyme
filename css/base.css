@@ -58,6 +58,10 @@ body h1 {
 	width: 100%;
 }
 
+#social_media_header {
+	display: none;
+}
+
 .iconHeader {
 	width: 25px;
 	height: 25px;
@@ -79,7 +83,7 @@ body h1 {
 }
 
 /* Social Media box container */
-#social_media {
+#social_media_footer {
 	margin-bottom: 0px;
 	padding-top: 10px;
 	padding-left: 0px;
@@ -88,12 +92,12 @@ body h1 {
 }
 
 /* Social Media List items */
-#social_media li {
+#social_media_footer li {
 	display: inline;
 }
 
 /* General formating for anchor */
-#social_media a {
+#social_media_footer a {
 	color: #F4CC00;
 	width: 125px;
 	font-size: 13pt;
@@ -102,7 +106,7 @@ body h1 {
 }
 
 /* Formating for last anchor */
-#social_media li:last-child a {
+#social_media_footer li:last-child a {
 	padding-right: 0px;
 }
 
@@ -123,4 +127,64 @@ body h1 {
 /* Formating hyperlinks */
 #disclaimer a {
 	color: #F4CC00;
+}
+
+@media only screen and (min-width: 501px) {
+	
+	#header {
+		width: 100%;
+		min-height: 110px;
+	}
+	
+	/* fixed logo size */
+	#logo {
+		float: left;
+		width: 350px;
+		height: 75px;
+		padding-top: 0px;
+	}
+	
+	
+	#header h3 {
+		float: left;
+		padding-left: 47px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	#header p {
+		width: 345px;
+		margin-right: 0px !important;
+		float: right;
+		font-family: 'Architects Daughter';
+	}
+	
+	.clear {
+		clear: both;
+	}
+	#social_media_header {
+		display: block;
+	}
+	
+	#social_media_header li {
+		float: right;
+		list-style-type: none;
+		padding-top: 10px;
+	}
+	
+	#social_media_header  a {
+		color: #F4CC00;
+		width: 125px;
+		font-size: 13pt;
+		font-weight: bold;
+		padding-right: 18px;
+	}
+	/* Formating for last anchor */
+	#social_media_media li:last-child a {
+		padding-right: 0px;
+	}
+	
+	#social_media_footer {
+		display: none;
+	}
 }
