@@ -39,3 +39,22 @@ function loadContent(contentName) {
 		document.getElementById(contentName + "_tab").className += " active";
 	}
 }
+
+function drawHome() {
+	
+	document.getElementById("about_index").style.display = "";
+	document.getElementById("about_text").style.display = "";
+	
+	document.getElementById("menu_index").style.display = "";
+	document.getElementById("menu_text").style.display = "";
+	
+	document.getElementById("gallery_index").style.display = "";
+	document.getElementById("gallery_text").style.display = "";
+	
+	document.getElementById("contact_index").style.display = "";
+	document.getElementById("contact_text").style.display = "";
+
+	document.getElementById("home_container").style.display = "block";
+	
+	document.getElementById("body_container").style.display = "none";
+}
