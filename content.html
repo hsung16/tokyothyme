@@ -9,7 +9,8 @@
 		
 		<link rel="stylesheet" href="css/base.css">
 		<link rel="stylesheet" href="css/content.css">
-		<script src = "javascript/globalvariables.js"></script>
+		<link rel="stylesheet" href="css/home.css">
+		<script src = "javascript/index.js"></script>
 		<!-- Bootstrap -->
 		<link href = "bootstrap-3.3.6-dist/css/bootstrap.min.css" rel = "stylesheet">
 
@@ -31,7 +32,7 @@
 	<body>
 		<!-- Header -->
 		<div id = "header">
-			<a href = "index.html"><img id = "logo" src = "images/logo.jpg" alt = "logo"></a>
+			<a href = "content.html"><img id = "logo" src = "images/logo.jpg" alt = "logo"></a>
 			<ul id = "social_media_header">
 				<li><a href = "https://www.yelp.ca/biz/tokyo-thyme-vancouver"><img class = "icon" src = "images/yelp.png">Yelp</a></li>
 				<li><a href = "https://www.facebook.com/pages/Tokyo-Thyme/144095502300686"><img class = "icon" src = "images/facebook.png">Facebook</a></li>
@@ -42,11 +43,38 @@
 			<p><img class = "iconHeader" src = "images/pin.png"> 5405 W. Blvd, Vancouver  <a href = "tel:604-263-3262"><img class = "iconHeader" src = "images/user.png"> 604-263-3262</a></p>
 		</div>
 		
+		<div id = "home_container">
+			<div id = "about_text">
+				<h1>About Us</h1>
+			</div>
+			<div id = "about_index">
+				<img onclick = "loadContent('about')" id = "about_pic" src = "images/about_strip.png" alt = "About Us">
+			</div>
+			<div id = "menu_text">
+				<h1>Menu</h1>
+			</div>
+			<div id = "menu_index">
+				<img onclick = "loadContent('menu')" id = "menu_pic" src = "images/menu_strip.png" alt = "Menu">
+			</div>
+			<div id = "gallery_text">
+				<h1>Gallery</h1>
+			</div>
+			<div id = "gallery_index">
+				<img onclick = "loadContent('gallery')" id = "gallery_pic" src = "images/gallery_strip.png" alt = "Gallery">
+			</div>
+			<div id = "contact_text">
+				<h1>Contact</h1>
+			</div>
+			<div id = "contact_index">	
+				<img onclick = "loadContent('contact')" id = "contact_pic" src = "images/contact_strip.png" alt = "Contact Us">
+			</div>
+		</div>
+		
 		<!-- Outer navbar -->
-		<div class = "body_container">
+		<div id = "body_container">
 			<div id = "tab_container">
 			<ul class = "tab">
-				<li><a href = "#" class = "tablinks" onclick = "openSelection(event, 'about');">About</a></li>
+				<li><a href = "#" id = "about_tab" class = "tablinks" onclick = "openSelection(event, 'about');">About</a></li>
 				<li><a href = "#" class = "tablinks" onclick = "openSelection(event, 'menu');">Menu</a></li>
 				<li><a href = "#" class = "tablinks" onclick = "openSelection(event, 'gallery');">Gallery</a></li>
 				<li><a href = "#" class = "tablinks" onclick = "openSelection(event, 'contact');">Contact</a></li>

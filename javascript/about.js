@@ -13,18 +13,15 @@ function removeAbout() {
 	var contact = document.getElementById("contact_pic");
 	var contactText = document.getElementById("contact_text");
 	
-	menu.style.width = "0%";
-	menu.style.transition = "0.5s";
-	menuText.innerHTML = "";
+	menu.style.display = "none";
+	menuText.style.display = "none";
 	
-	gallery.style.width = "0%";
-	gallery.style.transition = "0.5s";
-	galleryText.innerHTML = "";
+	gallery.style.display = "none";
+	galleryText.style.display = "none";
 	
 	
-	contact.style.width = "0%";
-	contact.style.transition = "0.5s";
-	contactText.innerHTML = "";
+	contact.style.display = "none";
+	contactText.style.display = "none";
 }
 
 function resetAll() {
@@ -41,31 +38,13 @@ function resetAll() {
 	var contact = document.getElementById("contact_pic");
 	var contactText = document.getElementById("contact_text");
 	
-	about.style.width = "100%";
-	about.style.transition = "0s";
-	aboutText.innerHTML = "About Us";
-	aboutText.style.fontSize = "27pt";
-	aboutText.style.paddingTop = "18.5%";
-	aboutText.style.transition = "0s";
 	
-	menu.style.width = "100%";
-	menu.style.transition = "0s";
-	menuText.innerHTML = "Menu";
-	menuText.style.fontSize = "27pt";
-	menuText.style.paddingTop = "18.5%";
-	menuText.style.transition = "0s";
+	menu.style.display = "";
+	menuText.style.display = "";
 	
-	gallery.style.width = "100%";
-	gallery.style.transition = "0s";
-	galleryText.innerHTML = "Gallery";
-	galleryText.style.fontSize = "27pt";
-	galleryText.style.paddingTop = "18.5%";
-	galleryText.style.transition = "0s";
-
-	contact.style.width = "100%";
-	contact.style.transition = "0s";
-	contactText.innerHTML = "Contact";
-	contactText.style.fontSize = "27pt";
-	contactText.style.paddingTop = "18.5%";
-	contactText.style.transition = "0s";
+	gallery.style.display = "";
+	galleryText.style.display = "";
+	
+	contact.style.display = "";
+	contactText.style.display = "";
 }
