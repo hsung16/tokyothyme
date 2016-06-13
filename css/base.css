@@ -7,6 +7,7 @@ html body {
 	background-color: #000000;
 	color: #F4CC00;
 	overflow-x: hidden;
+	min-width: 351px; /* to prevent showing white space when the size gets too small */
 }
 
 /* General rules for the body of html */
@@ -19,10 +20,14 @@ body h1 {
 
 /* Header formating rules*/
 #header {
+	border-bottom: solid #8EDE6C;
+}
+
+#header_content {
 	background-color: #000000;
 	min-height: 150px;
 	width: auto;
-	border-bottom: solid #8EDE6C;
+	max-width: 501px;
 }
 
 /* Formating header text */
@@ -129,11 +134,16 @@ body h1 {
 	color: #F4CC00;
 }
 
-@media only screen and (min-width: 501px) {
+@media only screen and (min-width: 673px) {
 	
 	#header {
 		width: 100%;
-		min-height: 110px;
+		/*min-height: 110px;*/
+	}
+	
+	#header_content {
+		max-width: 100%;
+		min-height: 105px;
 	}
 	
 	/* fixed logo size */
