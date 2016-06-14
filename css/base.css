@@ -135,11 +135,10 @@ body h1 {
 	color: #F4CC00;
 }
 
-@media only screen and (min-width: 673px) {
+@media only screen and (min-width: 685px) {
 	
 	#header {
 		width: 100%;
-		/*min-height: 110px;*/
 	}
 	
 	#header_content {

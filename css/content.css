@@ -96,7 +96,6 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 
 /* Menu inner navbar sizing and positioning */
 #menu_navbar {
-	/*width: 360px;*/
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Architects Daughter';	
@@ -276,7 +275,7 @@ p.omakase {
 }
 
 /*formatting rules 673px > */
-@media only screen and (min-width: 673px) {
+@media only screen and (min-width: 685px) {
 
 	/*formatting outer navbar to increase size*/
 	.tab {
