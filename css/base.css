@@ -21,13 +21,14 @@ body h1 {
 /* Header formating rules*/
 #header {
 	border-bottom: solid #8EDE6C;
+	background-color: #000000;
 }
 
 #header_content {
-	background-color: #000000;
 	min-height: 150px;
 	width: auto;
 	max-width: 501px;
+	margin: auto;
 }
 
 /* Formating header text */
