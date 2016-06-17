@@ -328,7 +328,7 @@ p.omakase {
 @media only screen and (min-width: 800px) {
 	
 	ul.menu_tab {
-		width: 790px;
+		width: 810px;
 	}
 	
 	ul.menu_tab li a  {
@@ -341,7 +341,7 @@ p.omakase {
 
 	/*formatting outer navbar to increase size*/
 	.tab {
-		width: 400px;
+		width: 420px;
 	}
 	
 	/* increasing size of outer navbar */
@@ -350,7 +350,7 @@ p.omakase {
 	}
 
 	ul.menu_tab {
-		width: 900px;
+		width: 930px;
 	}
 	
 	ul.menu_tab li a  {
