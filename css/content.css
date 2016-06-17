@@ -274,7 +274,7 @@ p.omakase {
 	padding-left: 10px;
 }
 
-/*formatting rules 673px > */
+/*formatting rules 685px > */
 @media only screen and (min-width: 685px) {
 
 	/*formatting outer navbar to increase size*/
@@ -293,9 +293,18 @@ p.omakase {
 	
 	ul.menu_tab li a  {
 		font-size: 12pt;
-	}	
+	}
+	
+	.menu_content {
+		margin-right: 5px;
+	}
+	.clear_col {
+		clear: both;
+	}
+	
+	/* formatting for appetizers */
 	#appetizers {
-		max-width: 100%;
+		width: 100%;
 		background-color: #FFFFFF;
 	}
 	
@@ -308,21 +317,46 @@ p.omakase {
 	}
 	
 	#app_1 {
-		min-width: 33%;
-		max-width: 50%;
+		width: 50%;
 		float: left;
 	}
 	
 	#app_2 {
-		min-width: 33%;
-		max-width: 50%;
+		width: 50%;
 		float: left;
 	}
 	
-	.clear_col {
-		clear:both;
+	/*formatting for sushi */
+	#sushi {
+		width: 100%;
+		background-color: #FFFFFF;
 	}
 	
+	#sushi_container {
+		border: 1px solid #000000;
+		width: 700px;
+		height: auto;
+		margin: auto;
+		background-color: #8EDE6C;
+	}
+	
+	#sushi_1 {
+		width: 50%;
+		float: left;
+	}
+	
+	#sushi_2 {
+		width: 50%;
+		float: left;
+	}
+	
+	#sushi_3 {
+		width: 50%;
+		float: right;
+	}
+	
+	/* formatting for rolls */
+
 }
 
 @media only screen and (min-width: 800px) {
