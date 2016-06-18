@@ -302,6 +302,10 @@ p.omakase {
 		clear: both;
 	}
 	
+	.menutabcontent {
+		background-color: #FFFFFF;
+	}
+	
 	/* formatting for appetizers */
 	#appetizers {
 		width: 100%;
@@ -356,7 +360,33 @@ p.omakase {
 	}
 	
 	/* formatting for rolls */
-
+	#roll {
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	
+	#roll_container {
+		border: 1px solid #000000;
+		width: 700px;
+		height: auto;
+		margin: auto;
+		background-color: #8EDE6C;
+	}
+	
+	#roll_1 {
+		width: 50%;
+		float: left;
+	}
+	
+	#roll_2 {
+		width: 50%;
+		float: right;
+	}
+	
+	#roll_3 {
+		width: 50%;
+		float: left;
+	}
 }
 
 @media only screen and (min-width: 800px) {
